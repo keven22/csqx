@@ -1,0 +1,184 @@
+[ 2017-03-11T22:27:12+08:00 ] 127.0.0.1 /Admin/Info/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0502s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0505s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0530s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.038283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038756s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.055755s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-03-11T22:27:12+08:00 ] 127.0.0.1 /Admin/View/Public/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 无法加载控制器:View
+
+[ 2017-03-11T22:27:13+08:00 ] 127.0.0.1 /Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+ERR: 非法操作:skin-config
+
+[ 2017-03-11T22:27:13+08:00 ] 127.0.0.1 /Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+ERR: 非法操作:skin-config
+
+[ 2017-03-11T22:27:42+08:00 ] 127.0.0.1 /index.php/Admin/Info/topadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0344s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\shop\Admin\Controller\InfoController.class.php 第 30 行.
+SQL: UPDATE `content` SET `content`='预计，未来两天受冷空气和弱切变线影响，本地阴天为主，有短时小雨和轻雾。气温下降体感阴冷，请注意防寒保暖；雨雾天气时道路湿滑能见度差，出行请注意交通安全。另外，汕头附近海面明天下午起风浪将明显加大，海上航行和作业船注意安全。' WHERE ( name='topNewsText' ) [ RunTime:0.0339s ]
+SQL: UPDATE `content` SET `content`='雨雾天气  注意安全' WHERE ( name='topNewsTitle' ) [ RunTime:0.0349s ]
+
+[ 2017-03-11T22:28:42+08:00 ] 127.0.0.1 /index.php/Admin/Info/topadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0526s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\shop\Admin\Controller\InfoController.class.php 第 30 行.
+SQL: UPDATE `content` SET `content`='&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 微软雅黑; font-size: 14px; line-height: 22.4px; text-indent: 28px;&quot;&gt;预计，未来两天本地以多云天气为主，气温逐日回升，早晚有雾或轻雾，能见度较差，请注意交通安全。另外，汕头附近海面东北风5-6阵风7级，明天起风力减弱为5级阵风6级，出海作业船只需注意安全。&lt;/span&gt;' WHERE ( name='topNewsText' ) [ RunTime:0.0523s ]
+SQL: UPDATE `content` SET `content`='气温回升  早晚有轻雾' WHERE ( name='topNewsTitle' ) [ RunTime:0.0520s ]
+
+[ 2017-03-11T22:28:56+08:00 ] 127.0.0.1 /Admin/Info/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0619s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0393s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003533s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004338s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-03-11T22:28:58+08:00 ] 127.0.0.1 /Admin/View/Public/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载控制器:View
+
+[ 2017-03-11T22:28:58+08:00 ] 127.0.0.1 /Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+ERR: 非法操作:skin-config
+
+[ 2017-03-11T22:28:58+08:00 ] 127.0.0.1 /Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+ERR: 非法操作:skin-config
+
+[ 2017-03-11T22:29:10+08:00 ] 127.0.0.1 /index.php/Admin/Info/topadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0461s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\shop\Admin\Controller\InfoController.class.php 第 30 行.
+SQL: UPDATE `content` SET `content`='预计，未来两天本地以多云天气为主，气温逐日回升，早晚有雾或轻雾，能见度较差，请注意交通安全。另外，汕头附近海面东北风5-6阵风7级，明天起风力减弱为5级阵风6级，出海作业船只需注意安全。' WHERE ( name='topNewsText' ) [ RunTime:0.0463s ]
+SQL: UPDATE `content` SET `content`='气温回升  早晚有轻雾' WHERE ( name='topNewsTitle' ) [ RunTime:0.0457s ]
+
+[ 2017-03-11T22:29:58+08:00 ] 127.0.0.1 /Admin/Info/graph_echarts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+ERR: 非法操作:graph_echarts
+
+[ 2017-03-11T22:30:06+08:00 ] 127.0.0.1 /Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+ERR: 非法操作:skin-config
+

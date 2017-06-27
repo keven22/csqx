@@ -1,0 +1,68 @@
+[ 2017-06-11T15:43:08+08:00 ] ::1 /csqx/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0441s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0448s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\csqx\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.251923s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.252102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014890s ]
+

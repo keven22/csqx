@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>*{margin:0;padding:0;}  </style>
+  <import type='css' file="css.pintuer" />
+  <import type='css' file="css.index" />
+  <title>{$title.value}</title>
+</head>
+<body>
+  <include file="Index/head" />
+  <div class="con today clearfix" style="margin-top: 12px;">
+    <div class="line">
+      <div class="xs12">
+        <div class="xs5">
+              <div class="panel">
+                  <div class="panel-head"><h4> 市县预警</h4></div>
+                   <div class="panel-body">
+                   <include file="Api/warnmap" />
+                   </div>
+                </div>
+              </div>
+              <div class="xs6" style="padding-left: 10px;">
+              <include file="Index/news" />
+              </div>
+            </div>
+            <script>W.use('/js/publichead.js');</script>
+    </div>
+</div>
+           <include file="Index/footer" />
+</body>
+</html>
+

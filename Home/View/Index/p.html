@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>*{margin:0;padding:0;}  </style>
+  <import type='css' file="css.pintuer" />
+  <import type='css' file="css.index" />
+  <import type='js' file="js.jquery" />
+  <import type='js' file="js.pintuer" />
+  <import type='js' file="js.respond" />
+  
+  <title>{$news.title} - 资讯 - {$title.value}</title>
+</head>
+<body>
+  <include file="Index/head" />
+  <div class="container">
+    <div class="line">
+
+        <div class="left">
+            <div class="news">
+               <h1 class="title">{$news.title}</h1>
+               <div class="articalinfo">
+               <span class="date">{$news.date}</span>
+               <br>
+               <span class="from">来源：<a href="{$news.url}">{$news.come}</a></span>
+               </div>
+               <div class="share">
+               <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
+               <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+               </div>
+               <hr>
+              <div class="artical">
+               {$news.text}
+              </div>
+            </div>
+            <div class="comment">
+              <div class="compost">
+              <form action="{:U('Home/Index/comadd')}" method="post" id="comForm" enctype="multipart/form-data">
+              <div class="field">
+              <textarea class="input" name="content" rows="5" cols="50" data-validate="required:必填" placeholder="一起来参与评论吧~" ></textarea>
+              </div>
+              <div class="form-group">
+                <div class="label">
+                  <label>选择身份</label>
+                </div>
+              <div class="comuser">
+                <div class="button-group radio">
+                  <label class="button active">
+                    <input name="user" value="" checked="checked" type="radio"><span class="icon icon-check"></span> keven22
+                  </label>
+                  <label class="button">
+                    <input name="user" value="tour" type="radio"><span class="icon icon-times"></span> 匿名
+                  </label>
+                </div>
+              </div>
+              <input name="pid" type="hidden" value="{$news.id}">
+              <div class="combutton">
+              <button id="comSubmit" class="button" type="submit">发布</button>
+              </div>
+              </div>
+              </form>
+              </div>
+              <div class="comlist">
+              <div class="label">
+                  <label>评论列表</label>
+                </div>
+                <div class="list-link">
+                <foreach name="comlist" item="comment">
+                  <a class="active">
+                  <div class="media media-x">
+                  <strong><if condition="$comment.user eq 'tour'"> 游客<else /> {$comment.user}</if></strong>
+                  {$comment.content}
+                  <span class="float-right">{$comment.date}</span>
+
+                  </div>
+                  </a>
+                  </foreach>
+                </div>
+
+
+              </div>
+            </div>
+            </div>
+        <div class="right">
+        <div class="panel newslist-r">
+        <div class="panel-head">其他资讯</div>
+        <div class="list-link">
+        <foreach name="newslist" item="news">
+          <a href="__CONTROLLER__/p/id/{$news.id}" class="active">{$news.title}</a>
+        </foreach>
+        </div>
+        </div>
+        </div>
+            <script>W.use('/js/publichead.js');</script>
+
+</div>
+</div>
+    <include file="Index/footer" />
+</body>
+</html>
+

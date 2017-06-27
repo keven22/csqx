@@ -1,0 +1,121 @@
+[ 2017-03-18T23:54:49+08:00 ] ::1 /shop/Admin/Info/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0696s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0822s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0742s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0796s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.047686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014065s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.017832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014717s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011738s ]
+
+[ 2017-03-18T23:54:50+08:00 ] ::1 /shop/Admin/View/Public/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载控制器:View
+
+[ 2017-03-18T23:54:50+08:00 ] ::1 /shop/Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 非法操作:skin-config
+
+[ 2017-03-18T23:54:50+08:00 ] ::1 /shop/Admin/Info/skin-config.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+ERR: 非法操作:skin-config
+
+[ 2017-03-18T23:56:41+08:00 ] ::1 /shop/index.php/Admin/Info/topadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0864s ]
+NOTIC: [8] Undefined variable: data D:\xampp\htdocs\shop\Admin\Controller\InfoController.class.php 第 30 行.
+SQL: UPDATE `content` SET `content`='预计，未来两天本地仍以阴天为主，间中有短时小雨和轻雾。雨雾天气时道路湿滑，能见度差，出行请注意交通安全。气温逐日回升，但早晚仍然偏凉，请注意添衣保暖。' WHERE ( name='topNewsText' ) [ RunTime:0.0831s ]
+SQL: UPDATE `content` SET `content`='未来两天阴天有小雨轻雾' WHERE ( name='topNewsTitle' ) [ RunTime:0.1821s ]
+
+[ 2017-03-18T23:57:02+08:00 ] ::1 /shop/Admin/Info/graph_echarts.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+ERR: 非法操作:graph_echarts
+
+[ 2017-03-18T23:57:10+08:00 ] ::1 /shop/Admin/Info/warn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0783s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0821s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.026003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025721s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.026128s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\shop\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+

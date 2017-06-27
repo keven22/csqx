@@ -1,0 +1,108 @@
+[ 2017-03-05T16:14:49+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:15:03+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:19:21+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:24:09+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:25:08+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:25:37+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:26:07+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:26:18+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:26:27+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:26:51+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:27:31+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载控制器:Js
+
+[ 2017-03-05T16:27:50+08:00 ] 127.0.0.1 /Public/js/plugins/gritter/jquery.gritter.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载控制器:Js
+

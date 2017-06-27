@@ -1,0 +1,88 @@
+.hotSpot ul { display:none; border:1px dashed #C5C5C5; }
+.hotSpot ul.on { display:block; }
+.hotSpot ul li { height:42px; line-height:42px; border-bottom:1px solid #eee7e7; zoom:1; margin:0;vertical-align:top; overflow:hidden;}
+.hotSpot ul li:after{content:".";display:block;clear:both;visibility:hidden;height:0;}
+.hotSpot ul li.on { background:#076ea8; color:#fff; }
+.hotSpot ul li.on a { color:#fff; }
+.hotSpot ul li.title { background:#ebebeb; }
+.hotSpot h4.title { background:#ebebeb; height: 42px; line-height: 42px; overflow: hidden; }
+.hotSpot h4.title span { display: block; text-align: center; float: left; }
+.hotSpot h4.title .name { color: #111; width: 65px; font-size: 14px; }
+.hotSpot h4.title .weather { width: 85px; }
+.hotSpot ul li.lasttitle { border-bottom:0; }
+.hotSpot ul .title .name { font-size:14px; color:#111111; }
+.hotSpot ul span {  text-align:center; float:left; }
+.hotSpot .name { width:65px;_width:59px; font-size:16px; }
+.hotSpot .name a { color:#076ea8; }
+.hotSpot .name a:hover { color:#ee842f; }
+.hotSpot .weather { width:85px; }
+.hotSpot .weather .legend { display:block; width:35px; height:35px; float:left; background-image:url(http://i.tq121.com.cn/i/index/legend35X35.gif); background-repeat:no-repeat; }
+.hotSpot .weather .d00 { background-position:0px 0px; }
+.hotSpot .weather .d01 { background-position:-35px 0px; }
+.hotSpot .weather .d02 { background-position:-70px 0px; }
+.hotSpot .weather .d03 { background-position:-105px 0px; }
+.hotSpot .weather .d04 { background-position:-140px 0px; }
+.hotSpot .weather .d05 { background-position:-175px 0px; }
+.hotSpot .weather .d06 { background-position:-210px 0px; }
+.hotSpot .weather .d07 { background-position:-245px 0px; }
+.hotSpot .weather .d08 { background-position:-280px 0px; }
+.hotSpot .weather .d09 { background-position:0px -35px; }
+.hotSpot .weather .d10 { background-position:-35px -35px; }
+.hotSpot .weather .d11 { background-position:-70px -35px; }
+.hotSpot .weather .d12 { background-position:-105px -35px; }
+.hotSpot .weather .d13 { background-position:-140px -35px; }
+.hotSpot .weather .d14 { background-position:-175px -35px; }
+.hotSpot .weather .d15 { background-position:-210px -35px; }
+.hotSpot .weather .d16 { background-position:-245px -35px; }
+.hotSpot .weather .d17 { background-position:-280px -35px; }
+.hotSpot .weather .d18 { background-position:0px -70px; }
+.hotSpot .weather .d19 { background-position:-35px -70px; }
+.hotSpot .weather .d20 { background-position:-70px -70px; }
+.hotSpot .weather .d21 { background-position:-105px -70px; }
+.hotSpot .weather .d22 { background-position:-140px -70px; }
+.hotSpot .weather .d23 { background-position:-175px -70px; }
+.hotSpot .weather .d24 { background-position:-210px -70px; }
+.hotSpot .weather .d25 { background-position:-245px -70px; }
+.hotSpot .weather .d26 { background-position:-280px -70px; }
+.hotSpot .weather .d27 { background-position:0px -105px; }
+.hotSpot .weather .d28 { background-position:-35px -105px; }
+.hotSpot .weather .d29 { background-position:-70px -105px; }
+.hotSpot .weather .d30 { background-position:-105px -105px; }
+.hotSpot .weather .d31 { background-position:-140px -105px; }
+.hotSpot .weather .d53 { background-position:-175px -105px; }
+.hotSpot .weather .n00 { background-position:0px -140px; }
+.hotSpot .weather .n01 { background-position:-35px -140px; }
+.hotSpot .weather .n02 { background-position:-70px -140px; }
+.hotSpot .weather .n03 { background-position:-105px -140px; }
+.hotSpot .weather .n04 { background-position:-140px -140px; }
+.hotSpot .weather .n05 { background-position:-175px -140px; }
+.hotSpot .weather .n06 { background-position:-210px -140px; }
+.hotSpot .weather .n07 { background-position:-245px -140px; }
+.hotSpot .weather .n08 { background-position:-280px -140px; }
+.hotSpot .weather .n09 { background-position:0px -175px; }
+.hotSpot .weather .n10 { background-position:-35px -175px; }
+.hotSpot .weather .n11 { background-position:-70px -175px; }
+.hotSpot .weather .n12 { background-position:-105px -175px; }
+.hotSpot .weather .n13 { background-position:-140px -175px; }
+.hotSpot .weather .n14 { background-position:-175px -175px; }
+.hotSpot .weather .n15 { background-position:-210px -175px; }
+.hotSpot .weather .n16 { background-position:-245px -175px; }
+.hotSpot .weather .n17 { background-position:-280px -175px; }
+.hotSpot .weather .n18 { background-position:0px -210px; }
+.hotSpot .weather .n19 { background-position:-35px -210px; }
+.hotSpot .weather .n20 { background-position:-70px -210px; }
+.hotSpot .weather .n21 { background-position:-105px -210px; }
+.hotSpot .weather .n22 { background-position:-140px -210px; }
+.hotSpot .weather .n23 { background-position:-175px -210px; }
+.hotSpot .weather .n24 { background-position:-210px -210px; }
+.hotSpot .weather .n25 { background-position:-245px -210px; }
+.hotSpot .weather .n26 { background-position:-280px -210px; }
+.hotSpot .weather .n27 { background-position:0px -245px; }
+.hotSpot .weather .n28 { background-position:-35px -245px; }
+.hotSpot .weather .n29 { background-position:-70px -245px; }
+.hotSpot .weather .n30 { background-position:-105px -245px; }
+.hotSpot .weather .n31 { background-position:-140px -245px; }
+.hotSpot .weather .n53 { background-position:-175px -245px; }
+.hotSpot .wd { width:74px;_width:81px; }
+.hotSpot .zs { width:65px; }
+.hotSpot .zs a { color:#ee842f; }

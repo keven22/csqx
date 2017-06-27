@@ -1,0 +1,1494 @@
+[ 2017-03-06T00:33:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0356s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0384s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0363s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0356s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.874106s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.874169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-03-06T00:33:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0362s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0381s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.691076s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.691137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2017-03-06T00:33:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.783039s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.783094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-03-06T00:33:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0342s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0365s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.803111s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.803156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-03-06T14:59:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0339s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.765558s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.765627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019017s ]
+
+[ 2017-03-06T15:23:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0316s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0324s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.690849s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.690913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2017-03-06T16:11:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0332s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0331s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.701262s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.701323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-03-06T16:11:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0318s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0389s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0326s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.643146s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.643198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2017-03-06T16:11:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0331s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.673497s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.673551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-03-06T16:11:27+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0347s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0562s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.632529s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.632579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-03-06T16:11:29+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0317s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0309s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0311s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0314s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.630871s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.630928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-03-06T16:11:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0335s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.602537s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.602585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-03-06T16:11:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0321s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0457s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0325s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.675976s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.676024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-03-06T16:11:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0353s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0325s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0419s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0372s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0326s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.716956s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.717007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-03-06T20:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005720s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0331s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0388s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.151038s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.151100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014444s ]
+
+[ 2017-03-06T20:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005889s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0389s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0416s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0389s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0465s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0393s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0944s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.991849s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.991906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026807s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014680s ]
+
+[ 2017-03-06T20:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0408s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0392s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.405169s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.405232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-03-06T20:51:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005460s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0395s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0402s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0381s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.1075s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.319413s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.319464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-03-06T22:37:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0317s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0314s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0342s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0326s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.728243s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.728309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011064s ]
+
+[ 2017-03-06T22:37:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0322s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0316s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0334s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0318s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.798649s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.798724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-03-06T22:37:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0341s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.800231s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.800306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+

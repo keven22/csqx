@@ -1,0 +1,365 @@
+<?php if (!defined('THINK_PATH')) exit();?><link href="../View/Public/css/animate.css" rel="stylesheet">
+<link href="../View/Public/css/plugins/summernote/summernote.css" rel="stylesheet">
+<link href="../View/Public/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
+<title>气象预警 - CSMA管理后台</title>
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>气象预警</h2>
+            <ol class="breadcrumb">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a>信息发布</a>
+                </li>
+                <li>
+                    <strong>气象预警</strong>
+                </li>
+            </ol>
+    </div>
+
+</div>
+<div class="row  border-bottom white-bg dashboard-header">
+                <div class="col-sm-8 ui-sortable">
+                    <h2>全区预警</h2>
+                    
+                    <div class="ibox-content">
+                    <div class="well">
+                    <a href="" class="fancybox">
+                    <img src='http://www.st12121.net/icon/yjxh_2014_png/%E6%97%A0-%E6%97%A0.png' />
+                    <h3>全区：目前无预警</h3>
+                    </a>
+                    </div>
+                    </div>
+                    <button type="button" class="btn btn-block btn-outline btn-danger" data-toggle="modal" data-target="#myModal">发布新的全区预警</button>
+                </div>
+                <div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content animated bounceInRight">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span>
+                                                </button>
+                                                <i class="fa fa-laptop modal-icon"></i>
+                                                <h4 class="modal-title">发布新的全区预警</h4>
+                                                <small class="font-bold">此预警将显示在所有页面头部
+                                        </div>
+                                        <div class="modal-body">
+                                        <div class="form-group">
+                                        <label class="col-sm-2">预警类型</label>
+
+                                        <div class="col-sm-10">
+                                            <select class="form-control" name="account">
+                                                <option>请选择预警类型</option>
+                                                <option>选项 2</option>
+                                                <option>选项 3</option>
+                                                <option>选项 4</option>
+                                            </select>
+
+                                            
+                                        </div>
+                                    </div>
+                                     <div class="form-group">
+                                        <label class="col-sm-2">预警级别</label>
+
+                                        <div class="col-sm-10">
+                                            <select class="form-control" name="account">
+                                                <option>请选择预警级别</option>
+                                                <option>选项 2</option>
+                                                <option>选项 3</option>
+                                                <option>选项 4</option>
+                                            </select>
+
+                                            
+                                        </div>
+                                    </div>
+                                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">详情描述</label>
+                                        <div class="col-sm-10">
+                                            <textarea id="ccomment" name="comment" class="form-control" required="" aria-required="true"></textarea>
+                                        </div>
+                                    </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                                            <button type="button" class="btn btn-primary">发布</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                
+                <div class="col-sm-3 ui-sortable">
+
+                                <h2>市县最新预警</h2>
+                                                   <div class="ibox-content">
+                                <ul class="todo-list m-t small-list ui-sortable">
+                                    <li>
+                                        <a href="widgets.html#" class="check-link"><i class="fa fa-check-square"></i> </a>
+                                        <span class="m-l-xs todo-completed">开会</span>
+
+                                    </li>
+                                    <li>
+                                        <a href="widgets.html#" class="check-link"><i class="fa fa-check-square"></i> </a>
+                                        <span class="m-l-xs  todo-completed">项目开发</span>
+
+                                    </li>
+                                    <li>
+                                        <a href="widgets.html#" class="check-link"><i class="fa fa-square-o"></i> </a>
+                                        <span class="m-l-xs">修改bug</span>
+                                        <small class="label label-primary"><i class="fa fa-clock-o"></i> 1小时</small>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button type="button" class="btn btn-block btn-outline btn-danger" data-toggle="modal" data-target="#myModal">发布市县预警</button>
+                </div>
+                <div class="modal inmodal" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content animated bounceInRight">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">关闭</span>
+                                                </button>
+                                                <i class="fa fa-laptop modal-icon"></i>
+                                                <h4 class="modal-title">发布市县预警</h4>
+                                                </div>
+                                        <div class="modal-body">
+                                        <div class="col-sm-10">
+                                            <label class="checkbox-inline i-checks">
+                                                <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="option1" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>a</label>
+                                            <label class="checkbox-inline i-checks">
+                                                <div class="icheckbox_square-green" style="position: relative;"><input type="checkbox" value="option2" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>b</label>
+                                            <label class="checkbox-inline i-checks">
+                                                <div class="icheckbox_square-green checked" style="position: relative;"><input type="checkbox" value="option3" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>c</label>
+                                        </div>
+                                        <div class="form-group">
+                                        <label class="col-sm-2">预警类型</label>
+
+                                        <div class="col-sm-10">
+                                            <select class="form-control" name="account">
+                                                <option>请选择预警类型</option>
+                                                <option>选项 2</option>
+                                                <option>选项 3</option>
+                                                <option>选项 4</option>
+                                            </select>
+
+                                            
+                                        </div>
+                                    </div>
+                                     <div class="form-group">
+                                        <label class="col-sm-2">预警级别</label>
+
+                                        <div class="col-sm-10">
+                                            <select class="form-control" name="account">
+                                                <option>请选择预警级别</option>
+                                                <option>选项 2</option>
+                                                <option>选项 3</option>
+                                                <option>选项 4</option>
+                                            </select>
+
+                                            
+                                        </div>
+                                    </div>
+                                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">详情描述</label>
+                                        <div class="col-sm-10">
+                                            <textarea id="ccomment" name="comment" class="form-control" required="" aria-required="true"></textarea>
+                                        </div>
+                                    </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+                                            <button type="button" class="btn btn-primary">发布</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+
+            </div>
+<div class="row">
+     <h4 class="m-t">预警列表</h4>
+<div class="table-responsive" id="tasklist"></div>
+                                            <script language="JavaScript">
+    function ajaxfunction(page){
+        if(page.length==0){
+            return;
+        }
+        var xmlHttp;
+        try{
+            //FF Opear 8.0+ Safair
+            xmlHttp=new XMLHttpRequest();
+        }
+        catch(e){
+            try{
+                xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            catch(e){
+                alert("您的浏览器不支持AJAX");
+                return false;    
+            }
+        }
+        xmlHttp.onreadystatechange=function(){
+            if(xmlHttp.readyState==4){
+                document.getElementById("tasklist").innerHTML=xmlHttp.responseText;
+            }
+        }
+        var url="http://www.xiaok.site/hdz/inc/tasklisttable.php";
+        url+="?page="+page+"&sid="+Math.random();
+        xmlHttp.open("GET",url,true);
+        xmlHttp.send(null);
+            
+    }
+    ajaxfunction(1);
+</script>
+</div>
+    <!-- Mainly scripts -->
+    <script src="../View/Public/js/jquery-2.1.1.min.js"></script>
+    <script src="../View/Public/js/bootstrap.min.js?v=3.4.0"></script>
+    <script src="../View/Public/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="../View/Public/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="../View/Public/js/hplus.js?v=2.2.0"></script>
+    <script src="../View/Public/js/plugins/pace/pace.min.js"></script>
+    <script src="../View/Public/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+     <script src="../View/Public/js/plugins/gritter/jquery.gritter.min.js"></script>
+
+    <!-- EayPIE -->
+    <script src="../View/Public/js/plugins/easypiechart/jquery.easypiechart.js"></script>
+
+    <!-- Sparkline -->
+    <script src="../View/Public/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="../View/Public/js/demo/sparkline-demo.js"></script>
+
+    <!-- SUMMERNOTE -->
+    <script src="../View/Public/js/plugins/summernote/summernote.min.js"></script>
+    <script src="../View/Public/js/plugins/summernote/summernote-zh-CN.js"></script>
+<script src="../View/Public/js/plugins/peity/jquery.peity.min.js"></script>
+    <script src="../View/Public/js/demo/peity-demo.js"></script>
+    <script src="../View/Public/js/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Sparkline demo data  -->
+    <script src="../View/Public/js/demo/sparkline-demo.js"></script>
+
+   
+
+
+   
+
+    <script>
+        $(document).ready(function () {
+
+            $('.summernote').summernote({
+                lang: 'zh-CN'
+            });
+
+        });
+        var edit = function () {
+            $("#eg").addClass("no-padding");
+            $('.click2edit').summernote({
+                lang: 'zh-CN',
+                focus: true
+            });
+        };
+        var save = function () {
+            $("#eg").removeClass("no-padding");
+            var aHTML = $('.click2edit').code(); 
+
+            $('.click2edit').destroy();
+            $.post("<?php echo U('Admin/Info/topadd');?>",
+  {
+    title:$(".form-control").val(),
+    content:aHTML
+  },
+  function(data,status){
+    alert("保存成功！");
+  });
+
+        };
+    </script>
+    <script>
+        $(document).ready(function () {
+            WinMove();
+            setTimeout(function () {
+                $.gritter.add({
+                    title: '您有2条未读信息',
+                    text: '请前往<a href="mailbox.html" class="text-warning">收件箱</a>查看今日任务',
+                    time: 10000
+                });
+            }, 2000);
+
+
+            $('.chart').easyPieChart({
+                barColor: '#f8ac59',
+                //                scaleColor: false,
+                scaleLength: 5,
+                lineWidth: 4,
+                size: 80
+            });
+
+            $('.chart2').easyPieChart({
+                barColor: '#1c84c6',
+                //                scaleColor: false,
+                scaleLength: 5,
+                lineWidth: 4,
+                size: 80
+            });
+
+            var data1 = [
+                [0, 4], [1, 8], [2, 5], [3, 10], [4, 4], [5, 16], [6, 5], [7, 11], [8, 6], [9, 11], [10, 30], [11, 10], [12, 13], [13, 4], [14, 3], [15, 3], [16, 6]
+            ];
+            var data2 = [
+                [0, 1], [1, 0], [2, 2], [3, 0], [4, 1], [5, 3], [6, 1], [7, 5], [8, 2], [9, 3], [10, 2], [11, 1], [12, 0], [13, 2], [14, 8], [15, 0], [16, 0]
+            ];
+            $("#flot-dashboard-chart").length && $.plot($("#flot-dashboard-chart"), [
+                data1, data2
+            ], {
+                series: {
+                    lines: {
+                        show: false,
+                        fill: true
+                    },
+                    splines: {
+                        show: true,
+                        tension: 0.4,
+                        lineWidth: 1,
+                        fill: 0.4
+                    },
+                    points: {
+                        radius: 0,
+                        show: true
+                    },
+                    shadowSize: 2
+                },
+                grid: {
+                    hoverable: true,
+                    clickable: true,
+                    tickColor: "#d5d5d5",
+                    borderWidth: 1,
+                    color: '#d5d5d5'
+                },
+                colors: ["#1ab394", "#464f88"],
+                xaxis: {},
+                yaxis: {
+                    ticks: 4
+                },
+                tooltip: false
+            });
+        });
+        $(function () {
+        $(".nav").find("li").each(function () {
+            var a = $(this).find("a:first")[0];
+            if ($(a).attr("href") === location.pathname) {
+                $(this).addClass("active");
+            } else {
+                $(this).removeClass("active");
+            }
+        });
+    })
+    </script>
+
+   
+
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script><!--统计代码，可删除-->
+</body>
+
+</html>

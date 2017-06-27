@@ -1,0 +1,41 @@
+
+<div class="top-box">
+  <div class="top">
+    <span class="fl">今天是<?php $weekarray=array("日","一","二","三","四","五","六"); echo  date("n月j日"); echo "星期".$weekarray[date("w")];?></span>
+    <a href="javascript:setHomepage()" target="_self" title="设为首页" class="fl">设为首页</a>
+      <a href="/m" target="_blank" class="fl">手机版网站</a>
+    <a href="" target="_blank" class="fl">收藏网页</a>
+
+    <a href="/w123" class="en fr">气象导航</a>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<div class="header-box">
+  <div class="header">
+    <div class="w_logo fl"><a href="/"><img src="{$logo.value}"></a></div>
+    <div class="warn-box fr">
+    
+<div class="warn clearfix">
+		 <div class="clear"></div>
+	</div>
+<div class="inforesult"><img src="http://www.weather.com.cn/m2/i/guangdong/zhyj/{$warn.content}.gif" width="50" height="43"></div>
+	
+    </div>
+    <div class="w_weather"></div>
+    <div class="clear"></div>
+  </div>
+  <div class="topnav">
+    <a href="/">首页</a>|
+      <a href="/forecast/" id="510">天气</a>|
+      <a href="/info/" id="32">资料</a>|
+      <a href="/typhoon/" id="10">台风</a>|
+      <a href="/earthquake/" id="34">地震</a>|
+      <a href="/disaster/">减灾</a>|
+      <a href="/environ/" style="padding-right:0">环境</a>
+  </div>
+  
+</div>
+<import type='css' file="css.common" />
+<import type='css' file="css.wcard" />
+<import type='css' file="css.right" />

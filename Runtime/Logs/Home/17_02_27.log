@@ -1,0 +1,3126 @@
+[ 2017-02-27T12:20:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0331s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0332s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.763785s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.763862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016941s ]
+
+[ 2017-02-27T12:20:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0353s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0354s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.840524s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.840612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-02-27T12:20:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0342s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.854330s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.854411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2017-02-27T12:20:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0327s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0329s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0325s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0327s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.880269s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.880336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2017-02-27T12:20:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0339s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.968977s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.969055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-02-27T12:20:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0359s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0358s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0356s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0364s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.077546s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.077610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-02-27T12:20:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0351s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0351s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0356s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0353s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.699741s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.699802s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-02-27T12:20:13+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0352s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0361s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-02-27T12:22:58+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0341s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0343s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-02-27T12:23:09+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0345s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2017-02-27T12:26:53+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.2638s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0343s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0749s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.4102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2017-02-27T12:33:10+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.2739s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0364s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0362s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0376s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-02-27T12:34:52+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0337s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-02-27T12:34:58+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0353s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0360s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0366s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2017-02-27T12:36:31+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0341s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0342s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0342s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-02-27T12:37:54+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0357s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0353s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-02-27T12:43:08+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0372s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0382s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0390s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-02-27T12:43:28+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0339s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-02-27T12:46:38+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0342s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.3048s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.1970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2017-02-27T12:46:39+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:46:40+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:51:40+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0366s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0362s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-02-27T12:51:43+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:51:43+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:52:54+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0365s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0367s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0373s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-02-27T12:52:58+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.2702s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0365s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0362s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0374s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-02-27T12:53:04+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:53:05+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:53:37+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-02-27T12:53:39+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:53:44+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:53:45+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:57:07+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0375s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0386s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-02-27T12:57:09+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:57:36+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0366s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0375s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-02-27T12:57:38+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:57:39+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:59:33+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.2686s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0346s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.1064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-02-27T12:59:36+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T12:59:36+08:00 ] 127.0.0.1 /index.php/Home/index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T13:03:48+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0359s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0368s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0362s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-02-27T13:03:52+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0354s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0358s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0354s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: topNewsTitle D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 208 行.
+NOTIC: [8] Undefined variable: topNewsText D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 211 行.
+NOTIC: [8] Undefined variable: newslist D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 214 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.049192s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.049238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-02-27T13:03:55+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0346s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0345s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-02-27T13:04:19+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0336s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2017-02-27T13:05:30+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2017-02-27T13:07:35+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0343s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2017-02-27T13:09:57+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0332s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0337s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-02-27T13:10:00+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+ERR: 非法操作:comadd
+
+[ 2017-02-27T13:13:47+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0334s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0341s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0336s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-02-27T13:13:50+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'csqx.comment' doesn't exist
+
+[ 2017-02-27T13:17:42+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0353s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0351s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0351s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.2705s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0358s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-02-27T13:17:44+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0337s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:18:29+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0356s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:18:35+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0354s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:19:32+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0356s ]
+NOTIC: [8] Undefined index: comtest D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:19:35+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0344s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0348s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2017-02-27T13:19:39+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0372s ]
+NOTIC: [8] Undefined index: comtest D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:19:48+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0348s ]
+NOTIC: [8] Undefined index: comtext D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:19:51+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0378s ]
+NOTIC: [8] Undefined index: comtext D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:21:05+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0369s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0376s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0374s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-02-27T13:21:07+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0331s ]
+NOTIC: [8] Undefined index: text D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:21:16+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0373s ]
+NOTIC: [8] Undefined index: text D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+
+[ 2017-02-27T13:22:26+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0341s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'text' in 'field list'
+
+[ 2017-02-27T13:22:27+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-02-27T13:22:47+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0357s ]
+
+[ 2017-02-27T13:23:57+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0350s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+
+[ 2017-02-27T13:23:57+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2017-02-27T13:24:13+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0365s ]
+SQL: INSERT INTO `comment` (`time`,`content`) VALUES ('1488173053','好天气一其输出') [ RunTime:0.0359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-02-27T13:24:15+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0357s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0352s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0364s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-02-27T13:25:40+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0341s ]
+
+[ 2017-02-27T13:26:33+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-02-27T13:27:38+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0363s ]
+SQL: INSERT INTO `comment` (`time`,`content`) VALUES ('1488173258','我是游客的评论') [ RunTime:0.0361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2017-02-27T13:27:39+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0322s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0326s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0332s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0331s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-02-27T13:30:31+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+
+[ 2017-02-27T13:32:36+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0336s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'text' in 'field list'
+
+[ 2017-02-27T13:32:37+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2017-02-27T13:32:59+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0354s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'text' in 'field list'
+
+[ 2017-02-27T13:32:59+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-02-27T13:33:30+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0353s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-02-27T13:33:37+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0347s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-02-27T13:34:01+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0309s ]
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 67 行.
+NOTIC: [8] Undefined index: content D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Model.class.php 第 1294 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-02-27T13:34:33+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0352s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0351s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0365s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-02-27T13:35:24+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0351s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`time`) VALUES ('  啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊','','1488173724') [ RunTime:0.0348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-02-27T13:35:25+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0369s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0415s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0373s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-02-27T13:36:26+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0389s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-02-27T13:36:35+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0370s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`time`) VALUES ('我们都是好孩子','tour','1488173795') [ RunTime:0.0361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-02-27T13:36:36+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0332s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0333s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-02-27T13:36:40+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0388s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0391s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-02-27T13:38:44+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0363s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`time`,`date`) VALUES ('好天气要来了吗？','','1488173924','') [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-02-27T13:38:46+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0339s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0334s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-02-27T13:39:18+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0368s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0367s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0363s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-02-27T13:39:27+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0381s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`pid`,`time`,`date`) VALUES ('好天气快来吧','tour','3','1488173967','') [ RunTime:0.0375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2017-02-27T13:39:29+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0342s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2017-02-27T13:40:08+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2] date() expects at least 1 parameter, 0 given D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0350s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`pid`,`time`,`date`) VALUES ('凄凄切切群群群群群群群群','tour','3','1488174008','') [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-02-27T13:40:10+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0357s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0356s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0350s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-02-27T13:42:47+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0370s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`pid`,`date`) VALUES ('111111111111111','tour','3','2017-02-27 13:Feb:th') [ RunTime:0.0357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-02-27T13:42:49+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0367s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0366s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0368s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0371s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-02-27T13:43:43+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0373s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`pid`,`date`) VALUES ('11111111111111','','3','2017-02-27 13:43:42pm') [ RunTime:0.0363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-02-27T13:43:43+08:00 ] 127.0.0.1 /index.php/Home/Index/comadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+NOTIC: [8] Undefined index: time D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0376s ]
+SQL: INSERT INTO `comment` (`content`,`user`,`pid`,`date`) VALUES ('11111111111111','','3','2017-02-27 13:43:43pm') [ RunTime:0.0376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-02-27T13:43:44+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0341s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-02-27T14:00:33+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0362s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0358s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0364s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0362s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `comment` WHERE ( pid=3 ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-02-27T14:00:48+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0344s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0350s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0362s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `comment` WHERE ( pid=3 ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+
+[ 2017-02-27T14:01:34+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0372s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0367s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0371s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-02-27T14:01:52+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0368s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0374s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0369s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0372s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0387s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-02-27T14:02:41+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0326s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0328s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0336s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0344s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-02-27T14:03:22+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0326s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0324s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-02-27T14:06:52+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0341s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0342s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-02-27T14:07:32+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0333s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0334s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0342s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0349s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0339s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2017-02-27T14:08:08+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0357s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0359s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0356s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0365s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0379s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2017-02-27T14:08:49+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0345s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0340s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0347s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0349s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2017-02-27T14:09:56+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0335s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0341s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-02-27T14:10:03+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0309s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0318s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0309s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0314s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0321s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0327s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-02-27T14:10:34+08:00 ] 127.0.0.1 /index.php/Home/Index/p/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0339s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0346s ]
+NOTIC: [8] Undefined variable: news D:\xampp\htdocs\shop\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0351s ]
+SQL: SELECT * FROM `news` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `comment` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `comment` WHERE ( pid='3' ) ORDER BY date desc LIMIT 0,9   [ RunTime:0.0342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-02-27T14:33:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0383s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0381s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.699033s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.699110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-02-27T14:50:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0334s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0334s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.712704s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.712764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-02-27T14:50:03+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0366s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0366s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0361s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.521997s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.522058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-02-27T14:50:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0374s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0382s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0377s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.713529s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.713592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-02-27T17:28:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0318s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0329s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0327s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.712650s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.712747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-02-27T17:28:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0335s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0343s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0331s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.745086s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.745135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2017-02-27T17:28:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0335s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0333s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0326s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.803150s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.803198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-02-27T17:28:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0355s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0337s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0352s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.705462s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.705522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-02-27T17:28:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0378s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0367s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0372s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0371s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.986753s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.986808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-02-27T18:56:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0387s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0399s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0396s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0398s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.577620s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.577680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-02-27T19:45:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.0336s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.0349s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.0344s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:0.0338s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `news` ORDER BY date desc  [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: des D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+NOTIC: [8] Undefined variable: color D:\xampp\htdocs\shop\Runtime\Cache\Home\2f412aae274b751dca883838bf7e7502.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.592289s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.592338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-02-27T23:11:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\xampp\htdocs\shop\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2017-02-27T23:12:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `opinion` [ RunTime:0.1278s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='title' ) LIMIT 1   [ RunTime:0.7922s ]
+SQL: SELECT * FROM `opinion` WHERE ( name='logo' ) LIMIT 1   [ RunTime:0.3218s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.1510s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsTitle' ) LIMIT 1   [ RunTime:0.3875s ]
+SQL: SELECT * FROM `content` WHERE ( name='topNewsText' ) LIMIT 1   [ RunTime:0.9168s ]
+SQL: SELECT * FROM `content` WHERE ( name='warn' ) LIMIT 1   [ RunTime:2.8806s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:5.5544s ]
+
